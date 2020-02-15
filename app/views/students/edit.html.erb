@@ -1,1 +1,4 @@
-<%= render 'form' %>
+<!-- directly renders form in a students/form partial with --> 
+<!-- the form object passed through as a local variable -->
+
+ <%= render partial: 'form', locals: {student: @student} %>
